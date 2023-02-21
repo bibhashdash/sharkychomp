@@ -25,27 +25,31 @@
     body {
       height: 100vh;
       color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #0e6258;
+      padding: 1rem;
     }
 
     .main-content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #0e6258;
       height: 100%;
     }
-
+  .main-photo {
+    width: 90%;
+    max-width: 520px;
+  }
   </style>
 </head>
 
 <body>
-
+<h2>Arjun Dash</h2>
 <div class="main-content">
-  <h2>Arjun Dash</h2>
-
   <p>Arjun Dash's shark game. Hi my name is Arjun and I am 7 years old. I like sharks, minecraft and reading.</p>
-
-  <img src="./assets/arjunShark.jpg" width="520px" height="400px">
+  <img class="main-photo" src="./assets/arjunShark.jpg" width="520px">
 </div>
 
 </body>
